@@ -1,201 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zxx">
 <head>
-    <meta charset="UTF-8">
-    <title>我的简历</title>
-    <link rel="stylesheet" href="static/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
-    <script src="static/js/script.js"></script>
+    <title>卢造发主页</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"/>
+    <meta name="keywords" content=""/>
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+    <!-- Style-CSS -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- Font-Awesome-Icons-CSS -->
+    <!-- //Custom-Files -->
+    <!-- Web-Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+          rel="stylesheet">
+    <!-- //Web-Fonts -->
 </head>
-
 <body>
-<div class="container" id="cv">
-    <div class="side">
-        <div class="me">
-            <div class="portrait"></div>
-            <h1 id="username">卢造发</h1>
-            <h4 id="persona-tag">Web后端 / Python爬虫 / 数据分析等</h4>
-        </div>
-        <div class="profile info-unit">
-            <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
-            <hr>
-            <ul class="info-list">
-                <li>
-                    <label class="left-label">姓名</label><span class="lable">卢造发</span></li>
-                <li>
-                    <label class="left-label">学历</label><span class="lable">本科</span></li>
-                <li>
-                    <label class="left-label">毕业院校</label><span class="lable">上海商学院</span></li>
-                <li>
-                    <label class="left-label">毕业年份</label><span class="lable">2019</span></li>
-            </ul>
-        </div>
-        <div class="profile info-unit">
-            <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
-            <hr>
-            <ul class="info-list">
-                <li>
-                    <label class="left-label">手机</label><span class="lable">152XXXXXXXX</span>
-                </li>
-                <li>
-                    <label class="left-label">邮箱</label><span class="lable">luzaofa@126.com</span>
-                </li>
-            </ul>
-        </div>
-        <div class="skill info-unit">
-            <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
-            <hr>
-            <ul class="progress-list">
-                <li>
-                    <label class="left-label">Python相关</label>
-                    <progress value="80" max="100"></progress>
-                </li>
-                <li>
-                    <label class="left-label">html/css</label>
-                    <progress value="70" max="100"></progress>
-                </li>
-                <li>
-                    <label class="left-label">Javascript</label>
-                    <progress value="60" max="100"></progress>
-                </li>
-                <li>
-                    <label class="left-label">机器学习</label>
-                    <progress value="60" max="100"></progress>
-                </li>
-            </ul>
-        </div>
-        <div class="stack info-unit">
-            <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
-            <hr>
-            <ul class="stack-list">
-                <li>
-                    <label class="left-label">爬虫:</label><span class="lable">Scrapy、Selenium、requests、urllib2、正则、Xpath、Beautifulsoup等</span>
-                </li>
-                <li>
-                    <label class="left-label">Web后端:</label><span class="lable">Python Django框架、CSS、JS、HTML</span>
-                </li>
-                <li>
-                    <label class="left-label">DB:</label><span class="lable">Mongodb、MySQL、Sqllite...</span>
-                </li>
-            </ul>
-        </div>
 
-        <div class="code info-unit">
-            <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
-            <hr>
-            <div class="weixin">
-                <img src="static/image/weixin.png" alt="">
 
+<div class="main-top py-1">
+    <!-- header -->
+    <header>
+        <div class="container-fluid px-lg-5">
+            <nav class="py-4">
+                <div class="logo" id="logo">
+                    <h1><a href="index.html">简历主页</a>
+                    </h1>
+                </div>
+
+                <ul class="menu mt-2">
+                    <li class="mr-lg-4 mr-3"><a href="./file/简历.pdf" target="_blank">个人简历</a></li>
+                    <li class="mr-lg-4 mr-3"><a href="index.html">面试材料</a></li>
+                    <li><a href="index.html">相关下载</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="main-w3pvt">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="style-banner">
+                    <h2 class="text-white">欢迎来到我的主页</h2>
+                    <h5 class="text-white">&nbsp;</h5>
+                    <h4 class="text-white">CSDN：<a href="https://blog.csdn.net/luzaofa" target="_blank">blog.csdn.net/luzaofa</a></h4>
+                    <h6 class="text-white">&nbsp;</h6>
+                    <h4 class="text-white">GitHub：<a href="https://github.com/Luzaofa" target="_blank">github.com/Luzaofa</a></h4>
+                </div>
             </div>
         </div>
     </div>
-    <div class="main">
-        <div class="education info-unit right-list">
-            <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">技术积累</span></h2>
-            <hr>
-            <ul class="experience-list">
-                <li>
-                    <h3>GitHub</h3>
-                    <span class="label"><a href="https://github.com/Luzaofa">https://github.com/Luzaofa</a> </span>
-                </li>
-                <li>
-                    <h3>CSDN</h3>
-                    <span class="label"><a href="https://github.com/Luzaofa">https://blog.csdn.net/luzaofa</a> </span>
-                </li>
-            </ul>
-        </div>
-        <div class="work info-unit right-list">
-            <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
-            <hr>
-            <ul class="experience-list">
-                <li>
-                    <h3>2018.03—2018.06（实习）</h3>
-                    <p> 中国医药工业信息中心 IT实习生（Python爬虫）
-                        <br/>从事Python爬虫，负责目标网页数据信息采集入库
-                        <br/>负责采集程序的日常维护
-                        <br/>学习公司采集框架（前台、测试与正式环境、分布式）
-                    </p>
-                </li>
-                <li>
-                    <h3>2018.07——至今（实习）</h3>
-                    <p>重阳投资 IT实习生（Web后端、自动化）
-                        <br/>负责基金交易系统开发（Django+Xadmin）
-                        <br/>负责Excel数据自动化解析入库、生成word基金月度报表
-                    </p>
-                </li>
-            </ul>
-        </div>
-        <div class="project info-unit right-list">
-            <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">项目经验</span></h2>
-            <hr>
-            <ul class="experience-list">
-                <li>
-                    <h3>爬虫</h3>
-                    <p>
-                        CDE、淘股吧帖子，东方财富股票数据、房价资讯
-                        <br/>
-                    </p>
-                </li>
-                <li>
-                    <h3>Web</h3>
-                    <p>
-                        独立完成基于Django web网站，获应用赛全国赛二等奖
-                    </p>
-                </li>
-                <li>
-                    <h3>NLP</h3>
-                    <p>
-                        对爬取的股市文本数据做聚类、情感分析、词云图。。。
-                    </p>
-                </li>
-                <li>
-                    <h3>数据挖掘</h3>
-                    <p>
-                        了解Tensorflow、keras…. 利用GBDT算法预测活跃用户
-                    </p>
-                </li>
-                <li>
-                    <h3>自动化处理</h3>
-                    <p>
-                        自动化解析excel，world文件，数据入库，生成报告文档
-                    </p>
-                </li>
-            </ul>
-        </div>
-        <div class="trophy info-unit">
-            <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
-            <hr>
-            <ul class="experience-list">
-                <li>
-                    <h3>2016.12 参加NFTE创业指导课程获优秀学员奖</h3>
-                </li>
-                <li>
-                    <h3>2017.04 上海市大学生创业决策仿真大赛上海市三等奖</h3>
-                </li>
-                <li>
-                    <h3>2017.10 自学考取了证券创业资格证</h3>
-                </li>
-                <li>
-                    <h3>2018.03 上海商学院二等奖学金</h3>
-                </li>
-                <li>
-                    <h3>2018.08 NLP技术下的股票市场全国总决赛二等奖</h3>
-                </li>
-        </div>
-        <div class="aboutme info-unit right-paragraph">
-            <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
-            <hr>
-            <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性格开朗，善于钻研思考问题，对事情有较强的主见；在校期间，
-                曾参加过学生会，社团部门部长等工作，曾组队带领同学参加了计算机应用大赛，获全国赛二等奖，工作严谨负责，具有效率
-            </p>
-        </div>
-    </div>
 </div>
-</body>
 
+
+</body>
 </html>
